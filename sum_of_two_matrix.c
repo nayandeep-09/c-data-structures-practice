@@ -1,3 +1,5 @@
+// sum of two 3x3 matrices
+
 #include <stdio.h>
 
 int main()
