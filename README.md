@@ -1,132 +1,130 @@
-<!-- ===================== HEADER ===================== -->
-<h1 align="center">🚀 C Programming Practice</h1>
+<h1 align="center">📘 Data Structures & C Programming</h1>
 
 <p align="center">
-  A collection of <b>C language programs</b> created for practice, logic building,
-  and exam preparation.
+  <b>A complete collection of C programs based on Data Structures</b><br>
+  Prepared according to university exam and practice questions
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Category-Data%20Structures-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Active-orange?style=for-the-badge">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=650&lines=C+Programming+Practice;Logic+Building+Programs;Happy+Coding+🚀">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&center=true&vCenter=true&width=750&lines=Data+Structures+Using+C;Exam+Oriented+Programs;Learn+%7C+Practice+%7C+Improve+🚀">
 </p>
 
 <hr>
 
-<!-- ===================== ABOUT ===================== -->
-<h2>📘 About This Project</h2>
-
-<p>
-This repository contains basic <b>C programming practice programs</b>.
-The programs focus on understanding core concepts like conditions, loops,
-recursion, functions, and strings.
-</p>
-
-<p>
-This project is mainly created for <b>students</b> to practice C programming
-and prepare for exams.
-</p>
-
----
-
-<!-- ===================== LANGUAGE ===================== -->
-<h2>🛠️ Language Used</h2>
-
-<ul>
-  <li><b>C Programming Language</b></li>
-</ul>
-
----
-
-<!-- ===================== PROGRAMS ===================== -->
 <h2>📂 Programs Included</h2>
 
-<ul>
-  <li>✅ Prime number check</li>
-  <li>✅ Leap year check</li>
-  <li>✅ Palindrome check (string)</li>
-  <li>✅ Factorial using recursion</li>
-  <li>✅ Fibonacci series using recursion</li>
-  <li>✅ Swapping two numbers using call by reference</li>
-  <li>✅ General practice programs</li>
-</ul>
-
----
-
-<!-- ===================== FILE LIST ===================== -->
-<h2>🗂️ Project Files</h2>
-
-<pre>
-Check_Prime_no.c
-Exchange_2_no_using_call_by_reference.c
-Factorial_using_recursion.c
-Fibonacci_series_with_recursion.c
-leapyear_or_not.c
-palindrom_or_not.c
-practice.c
-README.md
-</pre>
-
-<p><i>Note: Compiled <code>.exe</code> files are generated during execution.</i></p>
-
----
-
-<!-- ===================== RUN ===================== -->
-<h2>▶️ How to Run the Programs</h2>
-
 <ol>
-  <li>Install <b>GCC Compiler</b></li>
-  <li>Compile the program:
-    <pre>gcc filename.c -o output</pre>
-  </li>
-  <li>Run the program:
-    <pre>./output</pre>
+  <li><b>Factorial Using Recursion</b><br>
+      Program to calculate factorial using recursive function.</li><br>
+
+  <li><b>Exchange Two Numbers Using Call by Reference</b><br>
+      Swapping of two numbers using pointer concept.</li><br>
+
+  <li><b>Check Prime Number</b><br>
+      Program to check whether a number is prime or not.</li><br>
+
+  <li><b>Matrix Multiplication</b><br>
+      Multiplication of two matrices using 2D arrays and nested loops.</li><br>
+
+  <li><b>File Handling Operations</b><br>
+      <ul>
+        <li>Copy contents of one file to another</li>
+        <li>Write data into a file</li>
+        <li>Read data from a file</li>
+        <li>Count number of lines, words, and characters</li>
+      </ul>
+  </li><br>
+
+  <li><b>Check Leap Year (All Conditions)</b><br>
+      Checks leap year using all valid rules.</li><br>
+
+  <li><b>Check String Palindrome</b><br>
+      Checks whether a given string is palindrome or not.</li><br>
+
+  <li><b>Find Greatest Element from Array</b><br>
+      Finds the largest element in an array.</li><br>
+
+  <li><b>Fibonacci Series</b><br>
+      Generates Fibonacci series using loop and recursion:<br>
+      <code>0, 1, 1, 2, 3, 5, 8, 13, 21, ...</code></li><br>
+
+  <li><b>Sum of Two Matrices</b><br>
+      Adds two matrices of same order.</li><br>
+
+  <li><b>Stack Operations</b><br>
+      Implementation of Stack using array:
+      <ul>
+        <li>Push</li>
+        <li>Pop</li>
+      </ul>
+      (LIFO principle)
+  </li><br>
+
+  <li><b>Queue Operations</b><br>
+      Implementation of Queue:
+      <ul>
+        <li>Insert (Enqueue)</li>
+        <li>Delete (Dequeue)</li>
+      </ul>
+      (FIFO principle)
+  </li><br>
+
+  <li><b>Linked List Operations</b><br>
+      Singly Linked List implementation:
+      <ul>
+        <li>Insert at beginning</li>
+        <li>Insert at end</li>
+        <li>Insert at any position</li>
+        <li>Delete node</li>
+      </ul>
   </li>
 </ol>
 
+<hr>
+
+<h2>▶️ How to Run Programs</h2>
+
+<pre>
+gcc filename.c -o output
+./output
+</pre>
+
 <p><b>Windows users:</b> run <code>output.exe</code></p>
 
----
+<hr>
 
-<!-- ===================== PURPOSE ===================== -->
-<h2>🎯 Purpose</h2>
+<h2>🎯 Purpose of This Repository</h2>
 
 <ul>
-  <li>📖 Practice C programming basics</li>
-  <li>🧠 Improve logical thinking</li>
-  <li>📝 Prepare for university exams</li>
-  <li>💻 Maintain practice code on GitHub</li>
+  <li>Understand Data Structures using C</li>
+  <li>Improve logical and problem-solving skills</li>
+  <li>Prepare for university examinations</li>
+  <li>Maintain structured practice programs</li>
 </ul>
 
----
+<hr>
 
-<!-- ===================== AUTHOR ===================== -->
 <h2>👨‍💻 Author</h2>
 
 <p>
 <b>Nayandeep Chouhan</b><br>
-🎓 Student | C Programming Learner<br>
-📍 India
-</p>
-
-<p>
+C Programming & Data Structures Learner<br>
+📍 India<br>
 GitHub: <a href="https://github.com/nayandeep-09">nayandeep-09</a>
 </p>
 
----
-
-<!-- ===================== FOOTER ===================== -->
 <hr>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=650&lines=Happy+Coding+%26+Keep+Practicing!;C+Programming+Basics;Learning+Every+Day+✨">
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=750&lines=Happy+Coding+%26+Keep+Practicing!;Data+Structures+Using+C;Build+Strong+Foundations+✨">
 </p>
 
 <p align="center">
-  ⭐ If you find this repository helpful, give it a star!
+  ⭐ If this repository helps you, please give it a star!
 </p>
