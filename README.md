@@ -96,22 +96,3 @@ gcc filename.c -o output
 <p align="center">
   👨‍💻 Created with ❤️ for learning C & Data Structures
 </p>
-
-<!-- ===================== ANIMATIONS ===================== -->
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes slideUp {
-  from { transform: translateY(20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
-</style>
