@@ -1,3 +1,6 @@
+// Push and pop operation in single program.
+//once program exits the data will lost.
+
 #include <stdio.h>
 #define max_size 5
 
