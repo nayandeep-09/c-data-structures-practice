@@ -3,27 +3,27 @@
 #include <stdio.h>
 
 int main() {
-    FILE *fp1, *fp2;
-    char ch;
+    FILE *fp1, *fp2;    //used fp1 and fp2 to access files.
+    char ch;            //used ch to hold character count or print the character by character.
 
-    fp1 = fopen("source.txt", "r");
-    fp2 = fopen("copy.txt", "w");
+    fp1 = fopen("source.txt", "r"); // fp1&2 is access of 1st file from whete copy and file 2 where to paste it.
+    fp2 = fopen("copy.txt", "w");   //fp2 is used for file 2 where to paste it.
 
-    if (fp1 == NULL || fp2 == NULL) {
-        printf("File error");
-        return 0;
+    if (fp1 == NULL || fp2 == NULL) {   // if unable to create file or modify.
+        printf("File error");           // print file error.
+        return 0;                      // exit from the program.
     }
 
     while ((ch = fgetc(fp1)) != EOF) {  // getc inputs the first written alphabet,number,symbol or anythying.
         fputc(ch, fp2);                 // putc paste and save the first written alphabet,number,symbol or anythying in the file.
     }
 
-    printf("File copied successfully");
+    printf("File copied successfully");     // if all operation is successfull so then prints the file copied successfully.
 
-    fclose(fp1);
-    fclose(fp2);
+    fclose(fp1);    // closed the file 1
+    fclose(fp2);    // closed the file 2
 
-    return 0;
+    return 0;       //exits the program
 }
 
 
