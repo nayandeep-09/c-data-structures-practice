@@ -1,16 +1,12 @@
-// =====> FIFO
-
 #include <stdio.h>
-#define size 5
-
-int arr[size];
+#define arr_max 5
+int arr[arr_max];
 int front = -1, rear = -1;
-
-void enqueue(int a)
+void enqueue(element)
 {
-    if (rear == size - 1)
+    if (rear == arr_max - 1)
     {
-        printf("the queue is currently full\n");
+        printf("\nthe array is full");
     }
     else
     {
@@ -19,47 +15,33 @@ void enqueue(int a)
             front = 0;
         }
         rear++;
-        arr[rear] = a;
-        printf("element inserted %d\n", arr[rear]);
+        arr[rear] = element;
+        printf("\nthe entered element is %d", arr[rear]);
     }
 }
 void dequeue()
 {
-
-    if (front == -1 || front > rear)
+    if (front > rear || front == -1)
     {
-        printf("Queue is Empty\n");
+        printf("array is empty!\n");
     }
     else
     {
-        printf("%d removed\n", arr[front]);
         front++;
-
-        // reset when empty
-        if (front > rear)
-        {
-            front = -1;
-            rear = -1;
-        }
+        printf("deletation performed..");
     }
 }
-
 void display()
 {
-    void display();
+    if (front == -1 || rear == -1)
     {
-        if (front == -1 || front > rear)
+        printf("Queue is empty");
+    }
+    else
+    {
+        for (int i = front; i < arr_max; i++)
         {
-            printf("Queue is Empty!\n");
-        }
-        else
-        {
-            int i;
-            for (i = front; i <= rear; i++)
-            {
-                printf("%d ", arr[i]);
-            }
-            printf("\n");
+            printf(" %d", arr[i]);
         }
     }
 }
@@ -69,7 +51,7 @@ int main()
     int choice, element;
     while (1)
     {
-        printf("===> Enter the choice <===");
+        printf("\n===> Enter the choice <===");
         printf("\n 1 > For enqueue or insert the element\n 2 > For dequeue to delete an element\n 3 > for display all inserted elements\n 4 > Exit from program\n");
         printf("==> ");
         scanf("%d", &choice);
@@ -92,7 +74,7 @@ int main()
 
         case 4:
             printf("Exiting...\n");
-            return 0; // Exit only here
+            return 0; 
 
         default:
             printf(" ___________________________________\n");
