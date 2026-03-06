@@ -31,7 +31,7 @@ int main() {
     printf("Enter the string: ");
     scanf("%s", str);
 
-    length = strlen(str) - 1;
+    length = strlen(str) - 1; // because string stores last element as \0 null to skip it.
 
     while (length > n) {
         if (str[length] != str[n]) {
